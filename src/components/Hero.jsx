@@ -6,7 +6,7 @@ import SocialLinks from './SocialLinks';
 const Hero = () => {
   // ===== LOGIKA PERGANTIAN TEKS =====
   const [index, setIndex] = useState(0);
-  const titles = ["Muhammad Rama Fahrezy", "Fullstack Web Developer"];
+  const titles = ["Muhammad Rama Fahrezy", "Web Developer"];
 
   useEffect(() => {
     // mengatur interval pergantian teks setiap 3 detik (3000 milidetik)
@@ -33,7 +33,7 @@ const Hero = () => {
           transition={{ duration: 0.5 }}
           className="px-4 py-1.5 rounded-full bg-blue-50 border border-blue-100 text-blue-600 text-xs font-bold tracking-wide uppercase mb-8 shadow-sm"
         >
-          🚀 Terbuka untuk Kolaborasi
+          Samarinda, Kalimantan Timur
         </motion.div>
 
         <motion.h2 
@@ -42,7 +42,7 @@ const Hero = () => {
           transition={{ duration: 0.5, delay: 0.1 }}
           className="text-accent font-bold mb-4 tracking-wide"
         >
-          Halo Semua 👋, Saya
+          Halo!
         </motion.h2>
 
         {/* ===== ANIMASI FADE IN & FADE OUT ===== */}
