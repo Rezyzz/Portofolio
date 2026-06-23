@@ -10,7 +10,7 @@ const Projects = () => {
       desc: 'Sistem informasi manajemen edukasi berbasis web yang dilengkapi dengan fitur obrolan interaktif, manajemen dokumen, dan modul latihan soal.',
       tech: ['Python', 'Django', 'Web App'],
       // ini tautan asli ke github milikmu
-      link: 'https://github.com/kamal-ilham/educational-intelligence-organizer-eio-' 
+      link: 'https://eio.pythonanywhere.com/auth/login/' 
     },
     {
       id: 2,
@@ -18,7 +18,7 @@ const Projects = () => {
       desc: 'Platform layanan kesehatan terintegrasi cerdas yang menggunakan kecerdasan buatan, dilengkapi fitur pencarian fasilitas medis terdekat dan chatbot asisten.',
       tech: ['Next.js', 'Prisma', 'Tailwind CSS'],
       // ini tautan asli ke github milikmu
-      link: 'https://github.com/kamal-ilham/ai-healthcare-platform'
+      link: 'https://ai-healthcare-platform.vercel.app/'
     }
   ];
 
